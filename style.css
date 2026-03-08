@@ -1,22 +1,33 @@
 body{
 font-family: Arial, sans-serif;
 margin:0;
-background:#f5f7fb;
+background:#ffffff;
+color:#333;
+}
+
+.container{
+width:80%;
+margin:auto;
+padding:20px;
 }
 
 header{
 background:#2c3e50;
 color:white;
-padding:20px;
+padding:15px 0;
 }
 
 header h1{
-margin:0;
+margin-left:10%;
+}
+
+nav{
+margin-left:10%;
 }
 
 nav a{
 color:white;
-margin-right:15px;
+margin-right:20px;
 text-decoration:none;
 font-weight:bold;
 }
@@ -25,28 +36,10 @@ nav a:hover{
 text-decoration:underline;
 }
 
-h2{
-color:#2c3e50;
-}
-
-.services{
-display:flex;
-gap:20px;
-padding:20px;
-}
-
-.card{
-background:white;
-padding:20px;
-border-radius:8px;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
-width:250px;
-}
-
 footer{
 background:#2c3e50;
 color:white;
 text-align:center;
-padding:10px;
+padding:15px;
 margin-top:40px;
 }
