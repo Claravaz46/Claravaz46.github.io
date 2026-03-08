@@ -89,3 +89,46 @@ text-align:center;
 padding:15px;
 margin-top:40px;
 }
+
+.services{
+display:flex;
+gap:25px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.service-box{
+flex:1;
+min-width:250px;
+padding:25px;
+border-radius:6px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.growth{
+background:#e6c3a6;
+}
+
+.skills{
+background:#f4b400;
+}
+
+.career{
+background:#9fb5cc;
+}
+
+.service-box h3{
+margin-top:0;
+}
+
+.service-box a{
+display:block;
+margin:8px 0;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+}
+
+.service-box a:hover{
+text-decoration:underline;
+}
